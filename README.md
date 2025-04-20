@@ -252,6 +252,22 @@ Docker is a popular containerization platform that packages microservices and th
 
 ---
 
+
+## 🆚 Difference Between Microservices and Docker
+
+| 🔢 No. | 🧩 Microservices | 📦 Docker |
+|-------|------------------|-----------|
+| 1️⃣ | **Architecture Style** – Breaks down an application into smaller, independent services. | **Containerization Tool** – Packages and runs applications in lightweight containers. |
+| 2️⃣ | Focuses on **structuring** applications into loosely coupled services. | Focuses on **packaging and deploying** applications consistently. |
+| 3️⃣ | Each service handles a specific **business functionality** (e.g., Auth, Payments). | Packages an app and its dependencies into a **container image** for easy distribution. |
+| 4️⃣ | Can be built using **different languages and technologies**. | Supports any language or stack defined via a **Dockerfile**. |
+| 5️⃣ | Enables **independent scaling** of services. | Enables **resource isolation** and efficient execution of multiple services. |
+| 6️⃣ | Requires **inter-service communication** (e.g., APIs). | Provides built-in **networking** for container communication. |
+| 7️⃣ | It is a **design pattern/architecture**. | It is a **tool/platform** for implementation and deployment. |
+
+
+
+
 ### **8. What Does Dealing with Dependencies Mean?**
 
 Dealing with dependencies in microservices involves managing **inter-service communication** while minimizing tight coupling. It is essential to ensure that services interact seamlessly and remain resilient, even in the event of failure.
